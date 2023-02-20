@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-, initial-scale=1">
+    <title>Matéo Guidi - Portfolio</title>
+    <meta name="author" content="Matéo Guidi">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="tabs">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a data-scroll href="#logiciels">Logiciels</a></li>
+                <li><a data-scroll href="#projets">Projets</a></li>
+            </ul>
+            <button type="button"><a href="contact.html">Contact</a></button>
+        </nav>
+    </header>
+
+    <section id="top">
+        <div id="top-element">
+            <img src="img/logo.png" class="logo-img">
+            <h3 id="subtitle">Jeune passionné par l'informatique et l'audiovisuel.</h3>
+        </div>
+    </section>
+
+    <section id="logiciels" class="logiciels">
+        <div class="soft-title">
+            <h1>Les logiciels</h1>
+            <p>Sur lesquelles je suis opérationnel.</p>
+        </div>
+        <div class="softs">
+            <div class="soft 1">
+                <img src="img/Adobe_Photoshop_CC_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://www.adobe.com/fr/products/photoshop.html" target="_blank"><h4>Adobe Photoshop</h4></a>
+            </div>
+            <div class="soft 2">
+                <img src="img/Adobe_Premiere_Pro_CC_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://www.adobe.com/fr/products/premiere.html" target="_blank"><h4>Adobe Premiere Pro</h4></a>
+            </div>
+            <div class="soft 3">
+                <img src="img/Adobe_After_Effects_CC_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://www.adobe.com/fr/products/aftereffects.html" target="_blank"><h4>Adobe After Effects</h4></a>
+            </div>
+            <div class="soft 4">
+                <img src="img/Adobe_Audition_CC_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://www.adobe.com/fr/products/audition.html" target="_blank"><h4>Adobe Audition</h4></a>
+            </div>
+            <div class="soft 5">
+                <img src="img/FLStudio_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://www.image-line.com/" target="_blank"><h4>FL Studio</h4></a>
+            </div>
+            <div class="soft 6">
+                <img src="img/VisualStudioCode_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://code.visualstudio.com/" target="_blank"><h4>Visual Studio Code</h4></a>
+            </div>
+            <div class="soft 7">
+                <img src="img/OBSStudio_icon.svg" class="soft-logo not-click" draggable="false"/>
+                <a href="https://obsproject.com/fr/" target="_blank"><h4>OBS Studio</h4></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="wrapper" id="projets">
+        <section class="item">
+            <div class="panel left">
+                <img src="img/projets.webp" draggable="false" class="not-click" onerror="this.onerror=null; this.src='img/projets.png'"/>
+            </div>
+            <div class="panel right">
+                <div id="paneltext">
+                    <h1>Tous mes projets depuis 2020</h1>
+                    <p>Sur mon temps libre, j'ai eu le temps de créer des projets tel que :</p>
+                    <ul>
+                        <li>Un Robot Discord nommé "<a href='https://jungle-raft-476.notion.site/Documentation-de-Charisme-2d255535810241d19d5fd90c37540782/' target="_blank">Charisme</a>"</li>
+                        <li>Quelques <a href='https://youtube.com/playlist?list=PL4fCnD_kUdEUIVlLkQlKtYHhBPCQLn-RV' target="_blank"> montages vidéos</a> par ci et par là.</li>
+                        <li>Et un peu de <a href='https://youtube.com/playlist?list=PL4fCnD_kUdEW7crrKA0_b_Ejq_KCvKQ34' target="_blank">composition musicale</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <p>Fait avec ❤️ par Matéo Guidi</p>
+    </footer>
+
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+
+    <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+        var scroll_pos = 0;
+        var scroll_time;
+ 
+    $(window).scroll(function() {
+        clearTimeout(scroll_time);
+        var current_scroll = $(window).scrollTop();
+    
+        if (current_scroll >= $('header').outerHeight()) {
+            if (current_scroll <= scroll_pos) {
+                $('header').removeClass('hidden');    
+            }
+            else {
+                $('header').addClass('hidden');  
+            }
+         }
+        
+            scroll_time = setTimeout(function() {
+                scroll_pos = $(window).scrollTop();
+            }, 100);
+    });
+    </script>
+    
+</body>
