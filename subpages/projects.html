@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="/img/ico.png">
+    <link rel="preload" href="../fonts/montserrat.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+    <script src="../js/global.js" defer></script>
+    <script src="../js/projects.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Matéo GUIDI - Projects</title>
+</head>
+
+<body class="bg-blue-100 flex items-center justify-center h-screen">
+    <main class="container px-4 py-4 flex flex-col">
+        <header class="text-black py-4">
+            <div class="mx-auto flex justify-between items-center align-middle">
+                <nav class="flex gap-4">
+                    <a href="../home.html" class="bg-gray-300 text-gray-500 px-3 py-1 header-b rounded-lg choicebutton align-middle"
+                        data-i18n="home"></a>
+                    <a href="../subpages/skills.html" class="bg-gray-300 text-gray-500 px-3 py-1 header-b rounded-lg choicebutton align-middle"
+                        data-i18n="skill"></a>
+                    <a href="../subpages/softskills.html" class="bg-gray-300 text-gray-500 px-3 py-1 header-b rounded-lg choicebutton align-middle"
+                        data-i18n="softskill"></a>
+                    <a href="../subpages/projects.html" class="bg-blue-300 text-blue-500 px-3 py-1 header-b rounded-lg choicebutton"
+                        data-i18n="projects"></a>
+                    <a target="_blank"
+                        class="bg-gray-200 px-3 py-1 rounded-lg choicebutton flex items-center header-b" id="CV">
+                        <p class="text-gray-500" data-i18n="CV"></p><img class="h-5 w-5" src="../img/iconewtab.png">
+                    </a>
+                </nav>
+                <div class="flex gap-2">
+                    <button id="frLangButton" class="px-3 py-1 rounded-lg choicebutton align-middle"
+                        onclick="setLanguagePreference('fr')">🇫🇷</button>
+                    <button id="usLangButton" class="px-3 py-1 rounded-lg choicebutton align-middle"
+                        onclick="setLanguagePreference('us')">🇺🇸</button>
+                    <button id="jpLangButton" class="px-3 py-1 rounded-lg choicebutton align-middle"
+                        onclick="setLanguagePreference('jp')">🇯🇵</button>
+                </div>
+            </div>
+        </header>
+        <div class="flex flex-grow gap-6 items-stretch main">
+            <div class="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between gap-6 w-1/3">
+                <img src="../img/pp.jpg" alt="Profile" class="rounded-full self-center w-1/2 h-auto">
+                <div class="text-black">
+                    <div class="gap-4 mt-2 my-5">
+                        <h1 class="text-xl font-bold" data-i18n="name"></h1>
+                        <p class="text-gray-600" data-i18n="actual"></p>
+                        <p class="text-gray-600" data-i18n="status"></p>
+                    </div>
+                    <div class="p-6 rounded-lg bg-blue-100"><p data-i18n="bio"></p></div>
+                    <div class="flex gap-4 mt-2 p-1">
+                        <a href="https://github.com/lazereds" target="_blank" title="GitHub" alt="GitHub">
+                            <img class="h-10 w-10 p-2 rounded-lg choicebutton" src="../img/icogithub.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/mateoguidi" target="_blank" title="LinkedIn">
+                            <img class="h-10 w-10 p-2 rounded-lg choicebutton" src="../img/icolinkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="mailto:mateo.guidi5@gmail.com" title="Mail">
+                            <img class="h-10 w-10 p-2 rounded-lg choicebutton" src="../img/icomail.png" alt="Mail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="grid grid-cols-1 md:grid-cols-1 gap-4 w-2/3">
+                <div class="bg-white p-6 rounded-lg shadow-md backdrop-blur">
+                    <h2 class="text-lg font-bold" data-i18n="projects"></h2>
+                    <div id="projects-container" class="flex flex-wrap gap-2 mt-4 flou-card"></div>
+                </div>
+            
+            </section>
+        </div>
+
+    </main>
+</body>
+
+</html>
