@@ -35,25 +35,10 @@ function showContainers() {
         skillSpan.appendChild(skillName);
         skillLink.appendChild(skillSpan);
 
-        /*skillSpan.addEventListener("mouseenter", () => {
-            document.body.style.backgroundImage = `url(${skill.visu})`;
-            document.body.style.backgroundSize = "cover";
-            document.body.style.backgroundPosition = "center";
-        });
-
-        skillSpan.addEventListener("mouseleave", () => {
-            document.body.style.backgroundImage = ""; // Réinitialiser le fond
-        });*/
-
-
         setTimeout(() => {
             projectsContainer.appendChild(skillLink);
             setTimeout(() => skillSpan.classList.add("show"), 20);
         }, index * 250);
     });
 }
-
-document.addEventListener('DOMContentLoaded', async () => {
-    showContainers();
-});
 

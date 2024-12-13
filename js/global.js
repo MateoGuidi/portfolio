@@ -36,6 +36,10 @@ window.addEventListener('DOMContentLoaded', async () => {
     actualLang.classList.add('bg-blue-300', 'text-blue-500');
     otherLang1.classList.add('bg-gray-300', 'text-gray-500');
     otherLang2.classList.add('bg-gray-300', 'text-gray-500');
+
+    if (typeof showContainers === 'function') {
+        showContainers();
+    }
 });
 
 
@@ -56,7 +60,7 @@ function updateContent() {
 async function fetchLanguageData(lang) {
     const basePath = window.location.pathname.includes('/subpages/') || window.location.pathname.includes('/projects/') ? '../' : '';
     const response = await fetch(`${basePath}languages/${lang}.json`);
-    return response.json();
+    return await response.json();
 }
 
 function setLanguagePreference(langSelected) {

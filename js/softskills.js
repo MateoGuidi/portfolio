@@ -49,8 +49,3 @@ function showContainers() {
         }, index * 250);
     });
 }
-
-document.addEventListener('DOMContentLoaded', async () => {
-    showContainers();
-});
-

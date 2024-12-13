@@ -31,29 +31,31 @@ function showContainers() {
     const skillsContainer = document.getElementById("skills-container");
     skills.forEach((skill, index) => {
         const skillSpan = document.createElement("span");
-        skillSpan.className = "bg-blue-100 text-lg text-blue-700 px-3 py-1 rounded-lg flex items-center gap-2 skill-fade-in cursor-default";
-    
+        skillSpan.className = "bg-blue-100 text-lg text-blue-700 px-3 py-1 rounded-lg flex items-center gap-2 skill-fade-in cursor-default relative";
+
+        const tooltipText = window.langData[skill.name];
+        skillSpan.setAttribute('aria-label', tooltipText);
+        skillSpan.setAttribute('role', 'tooltip');
+
         const skillIcon = document.createElement("img");
         skillIcon.src = skill.icon;
         skillIcon.alt = skill.name;
         skillIcon.className = "h-5 w-auto icon";
-    
+
         const skillName = document.createTextNode(skill.name);
 
-        const tooltip = document.createElement("span");
-        tooltip.className = "tooltip-text hidden absolute bg-gray-700 text-white text-sm rounded-lg px-2 py-1 shadow-md -top-10 left-1/2 transform -translate-x-1/2";
-    
+        const tooltipElement = document.createElement("span");
+        tooltipElement.className = "tooltip-text hidden absolute bg-gray-700 text-white text-sm rounded-lg px-2 py-1 shadow-md bottom-10 left-1/2 transform -translate-x-1/2 z-10";
+        tooltipElement.innerHTML = tooltipText;
+
         skillSpan.appendChild(skillIcon);
         skillSpan.appendChild(skillName);
-    
+        skillSpan.appendChild(tooltipElement);
+
         setTimeout(() => {
             skillsContainer.appendChild(skillSpan);
             setTimeout(() => skillSpan.classList.add("show"), 20);
         }, index * 250);
     });
 }
-
-document.addEventListener('DOMContentLoaded', async () => {
-    showContainers();
-});
 

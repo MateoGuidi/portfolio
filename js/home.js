@@ -109,7 +109,7 @@ function showContainers() {
             skillIcon.alt = skill.name;
             skillIcon.className = "h-5 w-auto icon";
             skillSpan.appendChild(skillIcon);
-            skillLink.href = "/projects/" + skill.name + ".html";    
+            skillLink.href = "./projects/" + skill.name + ".html";    
         } else {
             skillLink.className += " cursor-default"
         }
@@ -121,8 +121,4 @@ function showContainers() {
         }, index * 250);
     });
 }
-
-document.addEventListener('DOMContentLoaded', async () => {
-    showContainers();
-});
 
