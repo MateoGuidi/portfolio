@@ -25,6 +25,8 @@ skills = [
     { name: "IntelliJ IDEA", icon: "../img/skills/icointellijidea.png" },
     { name: "Netbeans", icon: "../img/skills/iconetbeans.png"},
     { name: "NPM", icon: "../img/skills/iconpm.png" },
+    { name: "Docker", icon: "../img/skills/icodocker.png" },
+    { name: "Spring", icon: "../img/skills/icospring.png" },
 ]
 
 function showContainers() {

@@ -23,8 +23,8 @@ softskills = [
 
 projects = [
     { name: "MinecraftDle", icon: "./img/projects/minecraftdle.webp", visu: "./img/projects/minecraftdlevisu.png" },
-    { name: "Charisme", icon: "./img/projects/discord.png" },
-    { name: "SimplerMC", icon: "./img/projects/simplermc.png" },
+    { name: "PixeLEMH", icon: "./img/projects/pixelemh.png" },
+    { name: "Serpentini", icon: "./img/projects/serpentini.png" },
     { name: "...", icon: "" },
 ]
 

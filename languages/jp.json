@@ -39,6 +39,8 @@
     "IntelliJ IDEA": "-インターフェースのマスター<br>-拡張機能のマスター<br>-プロジェクトのマスター",
     "Netbeans": "-インターフェースのマスター<br>-拡張機能のマスター<br>-プロジェクトのマスター",
     "NPM": "-コマンドのマスター<br>-パッケージのマスター<br>-スクリプトのマスター",
+    "Docker": "-コンテナのマスター<br>-イメージのマスター<br>-ボリュームのマスター",
+    "Spring": "-ルートのマスター<br>-コントローラーのマスター<br>-ビューのマスター",
     "MinecraftDle": "Minecraft: DLEはMinecraftの世界をテーマにしたウェブサイトです。<img src='./img/projects/minecraftdlevisu.png'>",
     "PERKS": "PERKS：パワーを使った2D格闘ゲーム。<img src='./img/projects/minecraftdlevisu.png'>",
     "Charisme": "Charisme：インタラクティブなDiscordボット。<img src='./img/projects/minecraftdlevisu.png'>",
@@ -59,5 +61,9 @@
     "TowaDescription": "Towaはターン制のタワーゲームです。<br>JavaとJavaFXで作られており、戦略的にタワーを使用して対戦相手を倒し、最終的に最も多くのタワーを残すことを目指します。",
     "DeckGameDescription": "DeckBuildDuelはカードゲームです。<br>C#で開発され、建物を構築してポイントを獲得し、対戦相手を倒すことを目指します。",
     "LabyGameDescription": "LabyGameは、キャラクターを迷路から脱出させるゲームです。<br>JavaとJavaFXで開発され、複数のレベルやモンスターを避ける要素があります。",
-    "BookBorrowerDescription": "BookBorrowerは、書籍貸出管理システムです。<br>Shellで開発され、コマンドラインを使用して書籍の管理、貸出、返却が可能です。"
+    "BookBorrowerDescription": "BookBorrowerは、書籍貸出管理システムです。<br>Shellで開発され、コマンドラインを使用して書籍の管理、貸出、返却が可能です。",
+    "SerpentiniDescription": "Serpentiniは2Dのスネークゲームです。<br>C#で開発され、オリジナルのアイデアを取り入れたクラシックなスネークゲームを楽しむことができます。<br>Unityライブラリを使用してゲームエンジンを構築し、C#でゲームロジックを実装しています。",
+    "AccessToSerpentini": "Serpentini はこちらでプレイできます：<a href='https://github.com/mateoguidi/Serpentini' class='link' target='_blank'>github.com</a>",
+    "PixeLEMHDescription": "PixeLEMH は Reddit の r/place イベント（ピクセル戦争）を再現したウェブサイトです。<br>React と TailwindCSS フレームワークを使用し、Java Spring で開発された API を利用しています。<br>このプロジェクトは開発者 <a href='https://linkedin.com/in/loan-collomb/' class='link' target='_blank'>Loan Collomb</a> と共同で行いました。",
+    "AccessToPixeLEMH": "PixeLEMHはここで公開されています：<a href='https://pixel.lemh.fr' class='link' target='_blank'>pixel.lemh.fr</a>"
 }

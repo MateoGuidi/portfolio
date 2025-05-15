@@ -39,6 +39,8 @@
     "IntelliJ IDEA": "-Mastery of interface<br>-Mastery of extensions<br>-Mastery of projects",
     "Netbeans": "-Mastery of interface<br>-Mastery of extensions<br>-Mastery of projects",
     "NPM": "-Mastery of commands<br>-Mastery of packages<br>-Mastery of scripts",
+    "Docker": "-Mastery of containers<br>-Mastery of images<br>-Mastery of volumes",
+    "Spring": "-Mastery of routes<br>-Mastery of controllers<br>-Mastery of views",
     "MinecraftDle": "Minecraft: DLE website in the Minecraft universe.<img src='./img/projects/minecraftdlevisu.png'>",
     "PERKS": "PERKS: 2D combat game with powers.<img src='./img/projects/minecraftdlevisu.png'>",
     "Charisme": "Charisme: Interactive Discord bot.<img src='./img/projects/minecraftdlevisu.png'>",
@@ -59,5 +61,9 @@
     "TowaDescription": "Towa is a turn-based tower game.<br>Created in Java with JavaFX, the goal is to defeat the opponent by using towers strategically and having the most towers standing by the end.",
     "DeckGameDescription": "DeckBuildDuel is a card game.<br>Developed in C#, the goal is to construct buildings to earn points and defeat the opponent.",
     "LabyGameDescription": "LabyGame is a game where you guide your character out of a maze.<br>Developed in Java with JavaFX, it features multiple levels and monsters to avoid.",
-    "BookBorrowerDescription": "BookBorrower is a book loan management system.<br>Developed in Shell, it enables book management, loans, and returns through command-line instructions."
+    "BookBorrowerDescription": "BookBorrower is a book loan management system.<br>Developed in Shell, it enables book management, loans, and returns through command-line instructions.",
+    "SerpentiniDescription": "Serpentini is a 2D snake game.<br>Developed in C#, it allows you to play a classic snake game with additional original ideas.<br>It was created using the Unity library for the game engine and C# for the game logic.",
+    "AccessToSerpentini": "Serpentini is available and playable here: <a href='https://github.com/mateoguidi/Serpentini' class='link' target='_blank'>github.com</a>",
+    "PixeLEMHDescription": "PixeLEMH is a website that recreates Reddit’s r/place event (Pixel War).<br>It was built using the React and TailwindCSS frameworks, with an API developed in Java Spring.<br>This project was done in collaboration with the developer <a href='https://linkedin.com/in/loan-collomb/' class='link' target='_blank'>Loan Collomb</a>.",
+    "AccessToPixeLEMH": "PixeLEMH is publicly available here: <a href='https://pixel.lemh.fr' class='link' target='_blank'>pixel.lemh.fr</a>"
 }

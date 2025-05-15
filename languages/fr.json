@@ -39,6 +39,8 @@
     "IntelliJ IDEA": "-Maitrise de l'interface<br>-Maitrise des extensions<br>-Maitrise des projets",
     "Netbeans": "-Maitrise de l'interface<br>-Maitrise des extensions<br>-Maitrise des projets",
     "NPM": "-Maitrise des commandes<br>-Maitrise des packages<br>-Maitrise des scripts",
+    "Docker": "-Maitrise des conteneurs<br>-Maitrise des images<br>-Maitrise des volumes",
+    "Spring": "-Maitrise des routes<br>-Maitrise des controllers<br>-Maitrise des vues",
     "MinecraftDle": "Minecraft : site web DLE dans l'univers de Minecraft.<img src='./img/projects/minecraftdlevisu.png'>",
     "PERKS": "PERKS : Jeu de combat en 2D avec des pouvoirs.<img src='./img/projects/minecraftdlevisu.png'>",
     "Charisme": "Charisme : Bot Discord interactif.<img src='./img/projects/minecraftdlevisu.png'>",
@@ -59,5 +61,9 @@
     "TowaDescription": "Towa est un jeu de tours au tour par tour.<br>Fait en Java avec JavaFX, le but est de battre l'adversaire en utilisant des tours et utiliser des spécificités de ces dernières pour obtenir le plus de tours debouts à la fin de la partie.",
     "DeckGameDescription": "DeckBuildDuel est un jeu de cartes.<br>Fait en C#, le but est de construire des bâtiments pour gagner des points et battre l'adversaire.",
     "LabyGameDescription" : "LabyGame est un jeu où l'on doit sortir notre personnage d'un labyrinthe.<br>Fait en Java avec JavaFX, il possède plusieurs étages et des monstres à esquiver.",
-    "BookBorrowerDescription": "BookBorrower est un système de gestion d'emprunt de livre.<br>Fait en Shell, il permet, avec des lignes de commandes de gérer des livres, des emprunts et des retours."
+    "BookBorrowerDescription": "BookBorrower est un système de gestion d'emprunt de livre.<br>Fait en Shell, il permet, avec des lignes de commandes de gérer des livres, des emprunts et des retours.",
+    "SerpentiniDescription": "Serpentini est un jeu de serpent en 2D.<br>Fait en C#, il permet de jouer à un jeu de serpent classique avec des idées originales supplémentaires.<br>Il a été réalisé en utilisant la librairie Unity pour le moteur de jeu et le langage C# pour la logique du jeu.",
+    "AccessToSerpentini": "Serpentini est disponible et jouable publiquement ici : <a href='https://github.com/mateoguidi/Serpentini' class='link' target='_blank'>github.com</a>",
+    "PixeLEMHDescription": "PixeLEMH est un site web qui reproduit l'évènement r/place de Reddit (Pixel War).<br>Il a été réalisé en utilisant les frameworks React et TailwindCSS, en utilisant une API codée avec Java Spring.<br>Ce projet a été fait en binôme avec le dévelopeur <a href='https://linkedin.com/in/loan-collomb/' class='link' target='_blank'>Loan Collomb</a>.",
+    "AccessToPixeLEMH": "PixeLEMH est disponible publiquement ici : <a href='https://pixel.lemh.fr' class='link' target='_blank'>pixel.lemh.fr</a>"
 }

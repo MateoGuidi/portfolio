@@ -1,5 +1,7 @@
 projects = [
     { name: "MinecraftDle", icon: "../img/projects/minecraftdle.webp", visu: "../img/projects/minecraftdlevisu.png" },
+    { name: "PixeLEMH", icon: "../img/projects/pixelemh.png" },
+    { name: "Serpentini", icon: "../img/projects/serpentini.png" },
     { name: "Charisme", icon: "../img/projects/discord.png" },
     { name: "SimplerMC", icon: "../img/projects/simplermc.png" },
     { name: "Odomo", icon: "../img/projects/odomo.png" },
